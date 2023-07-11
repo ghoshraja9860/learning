@@ -30,6 +30,7 @@ Finally it will show like this
 	yum install docker* -y
 	systemctl start docker
 	systemctl enable docker
+
  now we are reaching to our project arena: 
  make one server as a manager and rest two will be act as workers
  
@@ -52,10 +53,13 @@ Remember aws not allow to use private ip to hit outsider so we will use public i
 copy manager's public ip and paste to browser like 
 
 <img width="551" alt="image" src="https://github.com/ghoshraja9860/learning/assets/111753645/592fc6d6-53fb-40e7-a239-215bd376d5f9">
-	so here we can see manager and workers are in running mode and manager holding this service.
+
+ so here we can see manager and workers are in running mode and manager holding this service.
  net we can create another service and let see what actually swarm will act
 
- run 'docker service create --name webserver -p 8080 --replicas 3 nginx'
+ 
+run 'docker service create --name webserver -p 8080 --replicas 3 nginx'
+
  <img width="551" alt="image" src="https://github.com/ghoshraja9860/learning/assets/111753645/4a01455c-0ed5-4f73-897d-e1808dbb63be">
  
  here 3 service is activaten can later more or scale up .
@@ -77,7 +81,9 @@ copy manager's public ip and paste to browser like
 what happend if one node is go down? 
 
 <img width="271" alt="image" src="https://github.com/ghoshraja9860/learning/assets/111753645/f86f30c3-00e5-4343-ab7b-d7abd26e2f18">
+
 and
+
 <img width="861" alt="image" src="https://github.com/ghoshraja9860/learning/assets/111753645/670c01d6-4e61-48aa-b18e-a6e3aa342aef">
 
 now see whaen we off the one worker node automatically services are distributed amonth manager and another worker node ..
