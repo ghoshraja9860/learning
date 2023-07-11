@@ -16,6 +16,21 @@ First will launch 3 ec2 instances on t2.micro which is free and amazon-linux-2
 
 <img width="865" alt="image" src="https://github.com/ghoshraja9860/learning/assets/111753645/ef25bb22-c724-445f-81b0-17ada18a31a7">
 
+for network setting alltrafic allow must be enable
+
+<img width="804" alt="image" src="https://github.com/ghoshraja9860/learning/assets/111753645/b0575881-730f-451d-8879-381eee02f977">
+Finally it will show like this
+
+<img width="760" alt="image" src="https://github.com/ghoshraja9860/learning/assets/111753645/b14f3356-5f91-48c3-b6b3-48b61d89e650">
+
+===================================================go to aws cli and run below command on 3 instances=========================================
+	yum install docker* -y
+	systemctl start docker
+	systemctl enable docker
+	docker swarm init
+
+
+
 
 
 
