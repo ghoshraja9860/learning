@@ -11,7 +11,11 @@ Pre-req: 1. aws acc (free tier)
         2. basic knowledge on docker
 
 First will launch 3 ec2 instances on t2.micro which is free and amazon-linux-2 
+
 <img width="871" alt="image" src="https://github.com/ghoshraja9860/learning/assets/111753645/0f7a2845-587c-4bba-9632-e0aca962ee84">
+
+<img width="865" alt="image" src="https://github.com/ghoshraja9860/learning/assets/111753645/ef25bb22-c724-445f-81b0-17ada18a31a7">
+
 
 
 
