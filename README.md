@@ -1,4 +1,4 @@
-<img width="551" alt="image" src="https://github.com/ghoshraja9860/learning/assets/111753645/4a01455c-0ed5-4f73-897d-e1808dbb63be">===========================Docker swarm visualizer================================
+===========================Docker swarm visualizer================================
 #This is a basic project for larning purpose and we don't use this process in real world production deployment.
 For production we must take all security precautions.#
 visualizer project:
@@ -53,6 +53,8 @@ copy manager's public ip and paste to browser like
  net we can create another service and let see what actually swarm will act
 
  run 'docker service create --name webserver -p 8080 --replicas 3 nginx'
+ <img width="551" alt="image" src="https://github.com/ghoshraja9860/learning/assets/111753645/4a01455c-0ed5-4f73-897d-e1808dbb63be">
+ 
  here 3 service is activaten can later more or scale up .
  
  <img width="551" alt="image" src="https://github.com/ghoshraja9860/learning/assets/111753645/70f56f22-73aa-4949-bf90-ff7791bb74f6">
