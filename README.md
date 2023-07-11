@@ -24,7 +24,9 @@ Finally it will show like this
 
 <img width="760" alt="image" src="https://github.com/ghoshraja9860/learning/assets/111753645/b14f3356-5f91-48c3-b6b3-48b61d89e650">
 
-===============================================go to aws cli and run below command on 3 instances===========================
+======================go to aws cli and run below command on 3 instances===========================
+
+
 	yum install docker* -y
 	systemctl start docker
 	systemctl enable docker
@@ -79,6 +81,7 @@ and
 <img width="861" alt="image" src="https://github.com/ghoshraja9860/learning/assets/111753645/670c01d6-4e61-48aa-b18e-a6e3aa342aef">
 
 now see whaen we off the one worker node automatically services are distributed amonth manager and another worker node ..
+
 I hope it is cleared how docker swarm is working!!!!
 
 
