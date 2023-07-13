@@ -1,0 +1,15 @@
+- hosts: localhost
+  gather_facts: False
+  vars_files:
+    - aws-login.yml
+  roles:
+    - aws
+
+- hosts: loadbalancer
+  gather_facts: False
+  roles:
+    - { role: loadbalancer , become: yes}
+
+- hosts: webserver
+  roles:
+    - { role: webserver , become: yes}
