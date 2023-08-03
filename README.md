@@ -88,7 +88,7 @@ and
 
 now see whaen we off the one worker node automatically services are distributed amonth manager and another worker node ..
 
-I hope it is cleared how docker swarm is working!!!!
+I hope it is cleared how docker swarm works!!!!
 
 
 
