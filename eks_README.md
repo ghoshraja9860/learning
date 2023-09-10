@@ -70,5 +70,7 @@ We can run EKS using either EC2 or AWS Fargate, and on-premises using AWS outpos
 Now we will create a project to understand how eks works practically:
 =======================================================================
 
+The first step is we have to create an EKS cluster:
+------------------------------------------------
 
    
